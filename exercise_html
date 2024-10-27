@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Formulário de Cadastro green-color</title>
 </head>
 <body>
     
@@ -20,8 +20,8 @@
     <br/>
     <br/>
     <label for="Password"> Senha:</label>
-    <input type="password" placeholder="Your code">
-    
+    <input type="password" placeholder="Your code" max="99" min="8">
+        
     <br/>
     <br/>
     <button type="Cadastrar"> Cadastrar</button>
