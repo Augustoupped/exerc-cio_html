@@ -16,7 +16,7 @@
     <br/>
     <br/>
     <label for="User"> Usuário: </label>
-    <input id="User" placeholder="Your name"/>
+    <input id="User" placeholder="Your user"/>
     <br/>
     <br/>
     <label for="Password"> Senha:</label>
