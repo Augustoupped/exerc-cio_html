@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cadastro</title>
-</head>
-<body>
-    
-    <h1>Formulário de Cadastro</h1>
-    <hr/>
-    <br/> 
-  
-    <label for="name" >Nome: </label>
-    <input type="text" id="nome" placeholder="Name">
-    <br/>
-    <br/>
-    <label for="User"> Usuário: </label>
-    <input id="User" id="user" placeholder="Your name"/>
-    <br/>
-    <br/>
-    <label for="Password"> Senha:</label>
-    <input type="password" id="senha" placeholder="Your code" max="99" min="8">
+
+    </head>
+    <body>
         
-    <br/>
-    <br/>
-    <button type="Cadastrar"> Cadastrar</button>
-    
-</body>
-</html>
+        <form>
+            <h1>Formulário de Cadastro</h1>
+            <hr/>
+            <br/> 
+        
+            <label for="name" >Nome: </label>
+            <input type="text" id="nome" placeholder="Name">
+            <br/>
+            <br/>
+            <label for="Email"> Email: </label>
+            <input type="Email" id="Email" placeholder="Your email"/>
+            <br/>
+            <br/>
+            <label for="Password"> Senha:</label>
+            <input type="password" id="senha" placeholder="Your code" max="99" min="8">
+                
+            <br/>
+            <br/>
+            <button type="submit"> Cadastrar</button>
+    </form>
+
+    </body>
+    </html>
